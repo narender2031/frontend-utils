@@ -1,3 +1,4 @@
+import { ctInit, getClevertapSessionId } from "./clevertap";
 import { isValidName, isValidEmail, supportedValuesRegexes, isValidPincode  } from './validations'
 
 export { 
@@ -5,4 +6,6 @@ export {
     isValidEmail,
     supportedValuesRegexes,
     isValidPincode,
+    ctInit,
+    getClevertapSessionId,
 }
